@@ -1,5 +1,5 @@
 const DATA_COUNT = 13;
-const labels = ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'];
+const labels = ['January','February',' March',' April',' May','June',' July','August','September','October','November',' December'];
 
 const data = {
     labels: labels,
@@ -7,7 +7,7 @@ const data = {
         {
             label: '1st Year',
             data: [10, 30, 39, 20, 25, 34, 67, 89, 55, 12, 44, 78, 91],
-            borderColor: 'rgba(0, 0, 0, 1)',
+            borderColor: 'rgba(255, 0, 0, 1)',
             backgroundColor: 'rgba(0, 0, 0, 0.2)',
         },
         {
