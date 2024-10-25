@@ -1,23 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Class Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title> Line Chart</title>
+    <style>
+        .container {
+            width: 80%;
+            height: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-bottom: 4rem;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Employee Information</h1>
-    
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Enter employee name">
-    <br>
+    <div class="container">
+        <h1 style="font-size: 30px;">BSIT Department: Year-by-Year Progress in Academic Excellence Line Chart</h1>
+        <canvas id="myChart"></canvas>
+    </div>
 
-    <label for="salary">Base Salary:</label>
-    <input type="number" id="salary" placeholder="Enter base salary">
-    <br>
+</body>
+<script src="chart.js"></script>
 
-    <button id="setEmployee">Set Employee</button>
-    <button id="showName">Show Name</button>
-    <button id="showSalary">Show Salary</button>
-
-    <p id="outputName"></p>
-    <p id="outputSalary"></p>
+</html>
